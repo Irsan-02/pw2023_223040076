@@ -11,10 +11,10 @@
     <title>Tugas 1b</title>
 </head>
 <body>
-    <p><?php echo 'Aku adalah angka ' . '<b>'. $npm . '</b>'; ?></p>
-    <p><?php echo 'Jika aku dikali 5, maka aku sekarang menjadi ' . '<b>'. $npm * 5 . '</b>'; ?></p>
-    <p><?php echo 'Jika aku dibagi 2, maka aku sekarang menjadi ' . '<b>'. $npm / 2 . '</b>'; ?></p>
-    <p><?php echo 'Jika aku ditambah 75, maka aku sekarang menjadi ' . '<b>'. $npm + 75 . '</b>'; ?></p>
-    <p><?php echo 'Jika aku dikurang 20, maka aku sekarang menjadi ' . '<b>'. $npm - 20 . '</b>'; ?></p>
+    <p>Aku adalah angka <b> <?php echo $npm; ?> </b></p>
+    <p>Jika aku dikali 5, maka aku sekarang menjadi <b> <?php echo  $npm *= 5 ; ?> </b></p>
+    <p>Jika aku dibagi 2, maka aku sekarang menjadi <b> <?php echo  $npm /= 2 ; ?> </b></p>
+    <p>Jika aku ditambah 75, maka aku sekarang menjadi <b> <?php echo  $npm += 75 ; ?> </b></p>
+    <p>Jika aku dikurang 20, maka aku sekarang menjadi <b> <?php echo  $npm -= 20 ; ?> </b></p>
 </body>
 </html>
