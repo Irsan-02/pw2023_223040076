@@ -1,0 +1,283 @@
+      @font-face{
+font-family: judul;
+src: url(../font/Maler.TTF);
+}
+*{
+  padding:0; 
+  margin:0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+.container:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+header{
+  border-radius: 0 0 20% 20%;
+  box-shadow: 5px 5px rgba(20, 19, 19, .5);
+}
+header h1{
+  float: left;
+  padding: 15px 0;
+  color: rgba(255, 0, 0, .8);
+}
+header h1 a{
+  font-family: judul;
+}
+header ul{
+  float: right;
+}
+header ul li{
+  display: inline-block;
+}
+header ul li a{
+  padding: 25px 5px;
+  display: inline-block;
+}
+.li-login{
+  border: 1px solid #606060; 
+  border-radius: 20px; 
+  margin-left: 10px;
+}
+.a-login{
+   padding: 10px 20px;"
+}
+.a-login:hover{
+  color: white;
+  background-color: #606060;
+  border-radius: 20px;
+}
+.banner{
+  margin-top: 0;
+  height: 70vh;
+  background-image: url(../img/banner2.jpg);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(229, 219, 219 , .3);
+}
+.banner h2{
+  color: white;
+  z-index: 1;
+  padding: 20px 25px;
+  border: 3px solid white;
+  font-family: judul;
+  color: rgba(255, 0, 0, .8);
+}
+.about p{
+  width: 80%;
+  margin-left: 8%;
+  padding: 0 20px ;
+  text-align: center;
+}
+section{
+  padding: 50px 0;
+}
+section h3{
+  text-align: center;
+  padding: 20px 0;
+  color: rgba(255, 0, 0, .9);
+  margin-bottom: 20px;
+}
+.box:after {
+  content: "";
+  display: block;
+  color: both;
+  }
+.box .col-4{
+  width: 25%;
+  padding: 15px 30px;
+  text-align: center;
+  float: left;
+  margin-left: 24px;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid;
+  line-height: 70px;
+  font-size: 45px;
+  margin: 0 auto;
+}
+.box .col-4 h4{
+  margin: 10px 0;
+}
+.box .col-5{
+  width: 25%;
+  padding: 15px 30px;
+  text-align: center;
+  float: left;
+  margin-left: 24px;
+  border: 1px solid;
+  background-color: rgba(239, 225, 225, . 5);
+  box-shadow: 5px 5px rgba(20, 19, 19, .5);
+  border-radius: 3%;
+}
+.col-5{
+  height: 340px;
+  margin: 15px 0;
+}
+.box .col-5 h4{
+  margin: 10px 0;
+  text-align: center;
+  font-size: 18px;
+}
+.box .col-5 p{
+  width: 100%;
+  margin-top: 10px;
+}
+.col-5 h4{
+  font-family: judul;
+}
+.gallery{
+  background-color: #f9f9f9;
+}
+.gambar img {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  border: 1px solid;
+  line-height: 70px;
+  font-size: 45px;
+  margin: 0 auto;
+  border-radius: 3%;
+}
+.more{
+  float: justify;
+  padding: 5px 10px 10px 10px;
+  margin-top: 5px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #606060;
+  color: white;
+}
+.more i{
+  font-size: 20px;
+}
+.more:hover{
+  color: black;
+  background-color: rgba(239, 225, 225);
+  box-shadow: 5px 5px rgba(20, 19, 19, .5);
+}
+.des-sec{
+  padding: 20px 0;
+  margin: 10px 0;
+}
+.des-sec h2{
+  font-family: judul;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+}
+.des-sec img{
+  width: 70%;
+  border-radius: 3%;
+  display: block;
+  margin: 0 auto;
+}
+.des-sec p{
+  display: block;
+  margin: 10px auto;
+  padding: 15px 10px;
+  white-space: pre-line;
+  word-spacing: 1px;
+  text-align: justify;
+}
+.admin h1{
+  text-align: center;
+  padding: 30px;
+}
+.isi-table th,td{
+  padding: 5px;
+  white-space: pre-line;
+}
+.isi-table p{
+  text-align: center;
+}
+.isi-table textarea{
+  width: 100%;
+  height: 200px;
+}
+.isi-table img{
+  width: 250px;
+  margin: 10px;
+  border-radius: 3%;
+}
+.isi-table button{
+  width: 100px;
+  height: 30px;
+  border-radius: 15%;
+  color: black;
+}
+.isi-table button:hover{
+  color: white;
+  box-shadow: 3px 3px rgba(20, 19, 19, .5);
+}
+label{
+  font-size: 20px;
+}
+.txt{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 50px;
+}
+.txt-area{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 250px;
+  white-space: pre-line;
+}
+.tambah{
+  display: flex;
+  justify-content: space-between;
+}
+.tambah button{
+  margin: 5px 0;
+  padding: 8px 25px;
+  border-radius: 10%;
+  background-color: #319EF9;
+  opacity: .9;
+}
+.tambah input{
+  margin: 5px 0;
+  padding: 8px 25px;
+  border-radius: 5%;
+}
+.tambah button:hover{
+  color: white;
+  box-shadow: 4px 4px rgba(20, 19, 19, .5);
+}
+footer {
+  padding: 30px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
