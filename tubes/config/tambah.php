@@ -64,7 +64,7 @@ if($result){
   <link rel="stylesheet" type="text/css" href="../css/style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
-  <title></title>
+  <title>JAPANESE TRIP | TAMBAH</title>
 </head>
 <body>
   <header>
@@ -112,7 +112,7 @@ if($result){
       var tanya = confirm("Apakah Anda Ingin Keluar ?");
       
       if(tanya === true){
-      document.location.href="config/logout.php";
+      document.location.href="logout.php";
       }else{
       }
       }
